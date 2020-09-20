@@ -1,0 +1,151 @@
+.kiemdinh {
+    //white-space: nowrap;
+    width: 175px;
+    border: none;
+    // border: 1px solid #000000;
+    //overflow: hidden;
+    //text-overflow: ellipsis;
+}
+
+.card-product {
+    // display: flex;
+    justify-content: space-between;
+}
+
+.card-product-right {
+    width: 100%;
+}
+
+.usingType__Radio {
+    display: block;
+}
+
+#rentalPartner {
+    margin-top: 10px;
+}
+
+.myModal {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    #form_control {
+        width: 130px !important;
+        padding: 5% 30% !important;
+    }
+
+    span.input-group-prepend > button.btn.btn-light {
+        width: 150px !important;
+    }
+
+    .input-group {
+        margin-left: 70% !important;
+    }
+
+    
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .input-group {
+        margin-left: 50%;
+    }
+
+    span.input-group-prepend > button.btn.btn-light {
+        width: 130px;
+    }
+
+    #form_control {
+        width: 130px !important;
+        padding: 10% 40%;
+    }
+
+    input.form-control {
+        margin-left: 0 !important;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .card-product-left {
+        display: inline-block;
+        margin-right: 15%;
+    }
+    
+    .input-group {
+        width: 100% !important;
+    }
+
+    input.form-control {
+        margin-left: 0 !important;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .card-product-left {
+        display: inline-block;
+        margin-right: 15%;
+    }
+
+    .card-product-right {
+        width: 100%;
+    }
+    
+    .myModal {
+        width: 100%;
+        right: 0px;
+    }
+
+    #buttonPrimary {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .Select-control {
+        width: 100% !important;
+    }
+
+    .usingType__Radio {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ant-radio-group.ant-radio-group-outline {
+        width: 100%;
+    }
+
+    .btn.btn-sm.btn-primary.kiemdinh {
+        margin-bottom: 5px;
+    }
+
+    .btn.btn-secondary {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
+    a.menu-link {
+        width: 100%;
+    }
+
+    .card-product {
+        display: unset;
+    }
+
+    .btn-danger {
+        width: 100%;
+    }
+
+    .btn-warning {
+        width: 100%;
+    }
+
+    .btn-create {
+        width: 100%;
+    }
+}
